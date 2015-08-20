@@ -1,0 +1,35 @@
+{
+  "name": "javascript-debounce",
+  "version": "1.0.0",
+  "description": "A lightweight, dependency-free JavaScript module for debouncing functions based on David Walsh's debounce function.",
+  "main": "dist/javascript-debounce.js",
+  "scripts": {
+    "build": "./scripts/build.js; ./scripts/stats.js",
+    "stats": "./scripts/stats.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgarber623/javascript-debounce.git"
+  },
+  "keywords": [
+    "accessibility",
+    "aria",
+    "javascript"
+  ],
+  "author": {
+    "name": "Jason Garber",
+    "email": "jason@sixtwothree.org",
+    "url": "http://sixtwothree.org"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jgarber623/javascript-debounce/issues"
+  },
+  "homepage": "https://github.com/jgarber623/javascript-debounce",
+  "devDependencies": {
+    "cli-table": "^0.3.1",
+    "colors": "^1.1.2",
+    "gzip-size": "^3.0.0",
+    "uglify-js": "^2.4.24"
+  }
+}
