@@ -1,12 +1,12 @@
 {
-  "name": "javascipt-debounce",
+  "name": "javascript-debounce",
   "version": "1.0.0",
-  "homepage": "https://github.com/jgarber623/javascipt-debounce",
+  "homepage": "https://github.com/jgarber623/javascript-debounce",
   "authors": [
     "Jason Garber <jason@sixtwothree.org> (http://sixtwothree.org)"
   ],
   "description": "A lightweight, dependency-free JavaScript module for debouncing functions based on David Walsh's debounce function.",
-  "main": "dist/javascipt-debounce.js",
+  "main": "dist/javascript-debounce.js",
   "moduleType": [
     "amd",
     "globals"
@@ -27,6 +27,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jgarber623/javascipt-debounce.git"
+    "url": "git://github.com/jgarber623/javascript-debounce.git"
   }
 }
