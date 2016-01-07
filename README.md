@@ -1,5 +1,7 @@
 # javascript-debounce
 
+[![npm version](https://badge.fury.io/js/javascript-debounce.svg)](https://badge.fury.io/js/javascript-debounce)
+
 A lightweight, dependency-free JavaScript module for debouncing functions based on [David Walsh's debounce function](http://davidwalsh.name/javascript-debounce-function).
 
 ### Key Features
