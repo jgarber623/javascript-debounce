@@ -16,7 +16,7 @@ var colors = require('colors'),
 		' *  ' + pkg.name + ' may be freely distributed under the MIT license.\n' +
 		' */\n';
 
-exec('uglifyjs src/javascript-debounce.js --beautify "indent-level=2" --preamble "' + preamble + '" --output dist/javascript-debounce.js');
-exec('uglifyjs src/javascript-debounce.js --compress --mangle --preamble "' + preamble + '" --output dist/javascript-debounce.min.js');
+exec('$(npm bin)/uglifyjs src/javascript-debounce.js --beautify "indent-level=2" --preamble "' + preamble + '" --output dist/javascript-debounce.js');
+exec('$(npm bin)/uglifyjs src/javascript-debounce.js --compress --mangle --preamble "' + preamble + '" --output dist/javascript-debounce.min.js');
 
 console.log(colors.green('javascript-debounce %s built successfully!'), pkg.version);
