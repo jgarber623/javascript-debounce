@@ -70,7 +70,7 @@ if ('addEventListener' in window) {
 
 javascript-debounce is based on David Walsh's code and article [JavaScript Debounce Function](http://davidwalsh.name/javascript-debounce-function). His site is an invaluable resource for Web developers.
 
-javascript-debounce is written and maintained by [@jgarber623](https://github.com/jgarber623).
+javascript-debounce is written and maintained by [Jason Garber](https://sixtwothree.org/) with the help of [some great contributors](https://github.com/jgarber623/javascript-debounce/graphs/contributors).
 
 
 ## License
