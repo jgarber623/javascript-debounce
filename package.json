@@ -1,6 +1,6 @@
 {
   "name": "javascript-debounce",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight, dependency-free JavaScript module for debouncing functions based on David Walsh's debounce function.",
   "main": "dist/javascript-debounce.js",
   "scripts": {

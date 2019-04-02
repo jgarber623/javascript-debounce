@@ -19,11 +19,11 @@ javascript-debounce is also really tiny:
 		</tr>
 		<tr>
 			<th>Minified</th>
-			<td>667 bytes</td>
+			<td>664 bytes</td>
 		</tr>
 		<tr>
 			<th>Minified and gzipped</th>
-			<td>405 bytes</td>
+			<td>406 bytes</td>
 		</tr>
 	</tbody>
 </table>
