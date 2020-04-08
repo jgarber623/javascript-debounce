@@ -28,9 +28,9 @@
   "homepage": "https://github.com/jgarber623/javascript-debounce",
   "devDependencies": {
     "cli-table": "^0.3.1",
-    "colors": "^1.1.2",
-    "comma-number": "^1.1.0",
-    "gzip-size": "^3.0.0",
-    "uglify-js": "^2.4.24"
+    "colors": "^1.4.0",
+    "comma-number": "^2.0.1",
+    "gzip-size": "^5.1.1",
+    "uglify-js": "^2.8.29"
   }
 }
