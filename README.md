@@ -61,9 +61,20 @@ if ('addEventListener' in window) {
     var handleResize = debounce(function() {
         console.log('This method fired 250ms after the resize event was last invoked.');
     }, 250);
-
-    window.addEventListener('resize', handleResize);
+    window.addEventListener('resize', handleResize); // Debounced method invoked
 }
+
+// OR a JQuery example:
+
+$('#your_search').keyup(function(e) {
+    const term = $(this).val();
+    if(term) {
+        var exe_term = debounce(function() { // This method fired 250ms after
+           console.log('Debounced Term', term);
+        }, 250);
+        exe_term(); // Debounced method invoked
+     }
+});
 ```
 
 ## Acknowledgments
